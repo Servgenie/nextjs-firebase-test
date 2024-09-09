@@ -1,10 +1,11 @@
+import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <img src="/servgenie-logo.png"/>
+        <Image src="/servgenie-logo.png" alt="Servgenie Logo"></Image>
         <h1>Any wish, anytime, anywhere.</h1>
         <p><i>Coming Soon...</i></p>
       </main>
